@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* START HEADER CSS */
+.navigation {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.navigations-links {
+  display: flex;
+}
+.landingpage-img {
+  height: 50%;
+}
+
+.logo {
+  width: 10rem;
+}
+/* END HEADER CSS */
+/* Start LandingPage */
+.container-motto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* end landingpage css */
+
+/* START LOGIN CSS */
+.picture-login {
+  width: 45rem;
+}
+.login-form {
+  display: flex;
+  width: 65rem;
+}
+/* END LOGIN CSS */
